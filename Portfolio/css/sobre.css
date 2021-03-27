@@ -399,7 +399,7 @@ footer {
     }
 
     .sobre-titulo2 {
-        font-size: 3.2rem;
+        font-size: 3.4rem;
     }
 
     .sobre-text2{
@@ -460,8 +460,8 @@ footer {
 
 @media screen and (min-width: 1600px) {
     .sobre {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     .desk-logo {
