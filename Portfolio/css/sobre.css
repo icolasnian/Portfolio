@@ -95,7 +95,6 @@ a:hover {
     text-align: left;
     position: relative;
     margin-top: 2.5rem;
-    
     color: rgba(0,0,0, 0.7);
 }
 
@@ -109,13 +108,10 @@ a:hover {
 }
 
 .sobre-text2 {
-    
     font-size: 1rem;
     text-align: left;
-    
     position: relative;
     margin-top: 2.5rem;
-    
     color: rgba(0,0,0, 0.7);
 }
 
@@ -129,7 +125,6 @@ a:hover {
     height: 100%;
     width: 100%;
     background-color: none;
-    
 }
 
 
@@ -137,7 +132,6 @@ a:hover {
 
 .hab-titulo {
     text-align: center;
-    
     font-size: 2rem;
     position: relative;
     margin-top: 2rem;
@@ -150,8 +144,6 @@ a:hover {
     position: relative;
     left: 4rem;
     margin-top: 1.5rem;
-    
-  
 }
 .progress .skill {
     font: normal 12px "Open Sans Web";
@@ -179,15 +171,11 @@ a:hover {
     transition-duration: 3s;
     background-color: #11938d;
     max-width: 100%;
-    
-    
-    
 }
 
 .row {
       position: static;
       top: 5rem;
-      
 }
 
 
@@ -196,9 +184,6 @@ a:hover {
     box-sizing: border-box;
 }
   
-
-
-
 .slider-titulo {
     text-align: center;
     
@@ -220,8 +205,6 @@ a:hover {
 .slides {
     
     height: 10rem;
-    
-    
     scroll-snap-type: x mandatory;
     overflow-y: hidden;
     text-align: center;
@@ -241,11 +224,9 @@ a:hover {
     background: transparent;
 }
 .slides > div {
-    
     flex-shrink: 0;
     width: 300px;
     height: 300px;
-    
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.2);
     transform-origin: center center;
@@ -285,10 +266,6 @@ a:hover {
     top: 1px;
 }
 
-
-
-
-
 .slider-link.active {
     text-decoration: none;
     color: white;
@@ -299,10 +276,7 @@ a:hover {
     left: 8rem;
     top: 3rem;
     color: #11938d;
-   
 }
-
-
 
 /* curriculo */
 
@@ -454,10 +428,6 @@ footer {
     .desk-logo:hover {
         color: #11938d;
     }
-
-    
-
-    
 }
 
 @media screen and (min-width: 1600px) {
