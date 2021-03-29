@@ -88,7 +88,7 @@ html, body {
 
 .text-color-black {
     color: black;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Semibold';
     text-shadow: 1px 0 0 #000;
     width: 50%;
@@ -101,7 +101,7 @@ html, body {
 .text-color-green {
     color: #25beb6;
     margin-top: 2rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Semibold';
     position: relative;
     text-shadow: 1px 0 0 #16726d;
@@ -269,22 +269,12 @@ html, body {
         width: 950px;
         
     }
-
-
-
     .hide-text1 {
         left: 20%;
     }
     .hide-text2 {
         left: 20%;
     }
-
-    /*.text-color-black {
-        font-size: 10rem;
-    }
-    .text-color-green {
-        font-size: 10rem;
-    }*/
 }
 
 @media screen and (min-height: 1080px) {
@@ -477,3 +467,32 @@ button:focus{
   75%{opacity: 1;}
   100%{top: -100vh; opacity: 0;}
 }
+
+.animate {
+	-webkit-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	-moz-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+	-webkit-animation-fill-mode:backwards;
+	-moz-animation-fill-mode:backwards;
+	animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animate {
+	0% {opacity: 0;-webkit-transform: translateY(100%);}
+	100% {opacity: 1;-webkit-transform: translateY(0%);}	
+}
+
+@keyframes animate {
+	0% {opacity: 0;transform: translateY(30vh);} /* WORK ON THISSS! */
+/* 	0% {transform: translateY(100%);} */
+	100% {opacity: 1;transform: translateY(0%);}	
+}
+
+/* ------ Delays ------ */
+.delay02 { -webkit-animation-delay: .2s; animation-delay: .2s;}
+.delay04 { -webkit-animation-delay: .4s; animation-delay: .4s;}
+.delay06 { -webkit-animation-delay: .6s; animation-delay: .6s;}
+.delay08 { -webkit-animation-delay: .8s; animation-delay: .8s;}
+.delay10 { -webkit-animation-delay: 1s; animation-delay: 1s;}
+.delay12 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s;}
