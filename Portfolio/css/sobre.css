@@ -136,7 +136,7 @@ a:hover {
 .hab-titulo {
     text-align: center;
     
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
     margin-top: 2rem;
     
@@ -391,7 +391,7 @@ footer {
 
 @media screen and (min-width: 768px) {
     .sobre-titulo {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
     .sobre-text{
@@ -399,7 +399,7 @@ footer {
     }
 
     .sobre-titulo2 {
-        font-size: 3.4rem;
+        font-size: 2.4rem;
     }
 
     .sobre-text2{
@@ -411,7 +411,7 @@ footer {
     }
     
     .slider-titulo {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .slides {
@@ -426,7 +426,7 @@ footer {
     }
 
     .curriculo {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .flecha-projetos {
@@ -465,6 +465,6 @@ footer {
     }
 
     .desk-logo {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }

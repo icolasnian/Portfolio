@@ -89,7 +89,7 @@ a:hover {
 
 .main-texto {
     text-align: center;
-    font-size: .9rem;
+    font-size: .95rem;
     margin-bottom: 2rem;
 }
 
@@ -158,11 +158,11 @@ img {
     }
 
     .main-titulo {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .main-texto {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     
 }
@@ -177,17 +177,15 @@ img {
     }
 
     .cards_item {
-        width: 33.3%;
+        width: 20%;
         
         
       }
 }
 
-@media (min-width:160px) {
-    .cards_item {
-        width: 20%;
-    }
-}
+
+
+
 
   
 .card {
